@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Image Site</title>
+    <style>
+        html,body {
+            height: 100%;
+            margin: 10;
+        }
+
+        body {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            flex-direction: column;
+            background-image: 
+            linear-gradient(rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)),
+            url('./img/omelet.png');
+            background-size: contain;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            position:relative;
+            padding-bottom: 0px;
+        }
+        .image-area {
+            color:rgb(205, 229, 127);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            font-size: larger;
+            font-family: Arial, sans-serif; 
+            padding: 40px;
+        }
+        .image-area {
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 10px;
+            margin: 20px;
+            min-height: calc(80vh - 20px);
+            box-sizing: border-box;
+        }
+        NAV a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            margin: auto;
+            padding-left: 10px;
+        }
+        footer {
+            background-color: #dce6ef;
+            text-align: center;
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            margin: 0;
+        }
+       
+        footer p {
+            margin: 10px;
+            padding-top: 3px;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<div>
+<p></p>
+</div>
+<header>
+    <nav>
+        <a href="colorchange.html">Home / </a>
+        <a href="about.html">About / </a>
+        <a href="#services">Services / </a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+    <main>
+        <body>
+        <div class="image-area">
+            
+            食材へのこだわりや会社紹介、原点や理念などを掲載するページです。
+            
+            <a class="btn" href="colorchange.html">Homeへ戻る</a>
+      
+         </div>
+        </body> 
+    </main> 
+    <footer> 
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+   </footer>
+</html>
+    
